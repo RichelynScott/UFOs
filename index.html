@@ -38,32 +38,44 @@
                 <div class="col-md-3">
                     <form class="bg-dark">
                         <p>Filter Search</p>
-                        <ul class="list-group bg-dark">
-                            <li class="list-group-item bg-dark">
+                        <ul class="bg-dark list-group">
+                            <li class="bg-dark list-group-item">
                                 <label for="date">Enter Date</label>
                                 <input type="text" placeholder="1/10/2010" id="datetime" />
                             </li>
-                            <li class="list-group-item bg-dark">
-                                <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
-
+                            <li class="bg-dark list-group-item">
+                                <label for="city">Enter a City</label>
+                                <input type="text" placeholder="roswell" id="city"/>
+                            </li>
+                            <li class="bg-dark list-group-item">
+                                <label for="state">Enter a State</label>
+                                <input type = "text" placeholder="ca" id="state"/>
+                            </li>
+                            <li class="bg-dark list-group-item">
+                                <label for="date">Enter a Country</label>
+                                <input type="text" placeholder="us" id="country"/>
+                            </li>
+                            <li class="bg-dark list-group-item">
+                                <label for="shape">Enter a Shape</label>
+                                <input type="text" placeholder="circle" id="shape"/>
                             </li>
                         </ul>
                     </form>
                 </div>
                 <div class="col-md-9">
                     <table class="table table-striped">
-                      <thead>
-                        <tr>
-                            <th>Date</th>
-                            <th>City</th>
-                            <th>State</th>
-                            <th>Country</th>
-                            <th>Shape</th>
-                            <th>Duration</th>
-                            <th>Comments</th>
-                        </tr>
-                      </thead>
-                      <tbody></tbody>
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>City</th>
+                                <th>State</th>
+                                <th>Country</th>
+                                <th>Shape</th>
+                                <th>Duration</th>
+                                <th>Comments</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
                     </table>
                 </div>
             </div>
